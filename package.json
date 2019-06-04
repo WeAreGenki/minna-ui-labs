@@ -1,0 +1,116 @@
+{
+  "name": "minna-ui-labs-monorepo",
+  "private": true,
+  "repository": "https://github.com/WeAreGenki/minna-ui-labs",
+  "license": "Apache-2.0",
+  "workspaces": [
+    "components/*",
+    "utils/*"
+  ],
+  "scripts": {
+    "prepare": "lerna bootstrap",
+    "update": "yarn upgrade-interactive --latest",
+    "release": "yarn prepack && lerna publish",
+    "prepack": "yarn build && yarn predocs",
+    "build": "lerna run build --stream",
+    "prebuild": "yarn clean",
+    "clean": "lerna run clean && lerna clean --yes",
+    "preinstall": "node scripts/check-yarn.js",
+    "lint": "yarn lint:md && yarn lint:css && yarn lint:js && yarn lint:types",
+    "lint:md": "remark --frail --quiet .",
+    "lint:css": "stylelint **/*.{css,html,js,md,mjs,svelte,svg,ts}",
+    "lint:js": "eslint --ext html,js,md,mjs,svelte,svg,ts .",
+    "lint:types": "tsc --noEmit",
+    "test": "yarn lint && jest --notify --watch",
+    "test-ci": "jest --coverage --runInBand --ci"
+  },
+  "devDependencies": {
+    "@wearegenki/renovate-config": "1.0.0",
+    "codecov": "3.5.0",
+    "eslint": "5.16.0",
+    "jest": "24.8.0",
+    "lerna": "3.14.1",
+    "minna-tools": "0.24.1",
+    "minna-ui": "0.24.0",
+    "postcss": "7.0.16",
+    "postcss-scss": "2.0.0",
+    "prettier": "1.17.1",
+    "remark-cli": "6.0.1",
+    "stylelint": "10.0.1",
+    "svelte": "3.4.4",
+    "typescript": "3.5.1"
+  },
+  "browserslist": [
+    "extends @minna-ui/browserslist-config"
+  ],
+  "prettier": "minna-tools/prettier",
+  "postcss": {
+    "plugins": {
+      "minna-ui/postcss": {
+        "importAlias": {
+          "^import\\.css$": "@minna-ui/css/src/import.css"
+        },
+        "unsafe": true
+      }
+    },
+    "syntax": "postcss-scss"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "@minna-ui/eslint-config",
+      "@minna-ui/eslint-config/typed",
+      "@minna-ui/eslint-config/svelte"
+    ]
+  },
+  "eslintIgnore": [
+    "**/node_modules/**",
+    "/components/*/dist/**",
+    "/test/coverage/**",
+    "/utils/*/cli/index.js",
+    "/utils/*/lib/**"
+  ],
+  "stylelint": {
+    "extends": "minna-tools/stylelint",
+    "ignoreFiles": [
+      "**/*.d.ts",
+      "**/node_modules/**",
+      "components/*/dist/**",
+      "test/coverage/**",
+      "utils/*/lib/**"
+    ]
+  },
+  "remarkConfig": {
+    "plugins": [
+      "minna-tools/remark"
+    ]
+  },
+  "prettierIgnore": [
+    "cli/index.js",
+    "components/*/dist",
+    "docs/index.html",
+    "node_modules",
+    "test/coverage",
+    "utils/*/lib",
+    "yarn.lock"
+  ],
+  "jest": {
+    "preset": "minna-tools"
+  },
+  "renovate": {
+    "extends": [
+      "@wearegenki"
+    ]
+  },
+  "engines": {
+    "node": ">=10.12.0",
+    "yarn": ">1.12.0"
+  },
+  "os": [
+    "!win32",
+    "darwin",
+    "freebsd",
+    "linux",
+    "openbsd"
+  ]
+}

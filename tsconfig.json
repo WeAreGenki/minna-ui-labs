@@ -1,0 +1,24 @@
+// https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
+
+// this config is for base settings & linting + VS Code
+
+{
+  "extends": "@minna-ui/ts-config",
+  "compilerOptions": {
+    "allowJs": true,
+    "baseUrl": ".",
+    "checkJs": true,
+    "isolatedModules": true, // ensure compatibility with sucrase
+    "noEmit": true,
+    "paths": { "*": ["types/*"] },
+    "sourceMap": true
+  },
+  "exclude": [
+    "**/cli/index.js",
+    "components/*/dist/*",
+    "utils/*/lib/*",
+    "**/node_modules/*",
+    "**/__tests__/*", // FIXME: Improve types in tests and then remove this line
+    "test/coverage"
+  ]
+}

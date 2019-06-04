@@ -1,0 +1,12 @@
+.eslintcache
+.npmrc
+.stylelintcache
+.tsbuildinfo
+*.lerna_backup
+*.log
+/components/*/dist/
+/css/dist/
+/test/coverage/
+/utils/*/lib/
+node_modules/
+package-lock.json*

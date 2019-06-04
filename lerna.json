@@ -1,0 +1,33 @@
+{
+  "version": "0.24.1",
+  "packages": [
+    "components/*",
+    "css",
+    "utils/*"
+  ],
+  "command": {
+    "publish": {
+      "allowBranch": "master"
+    },
+    "version": {
+      "signGitCommit": true,
+      "signGitTag": true
+    }
+  },
+  "ignoreChanges": [
+    "**/__fixtures__/**",
+    "**/__mocks__/**",
+    "**/__tests__/**",
+    "**/.*rc.js",
+    "**/.*rc",
+    "**/*.config.js",
+    "**/*.md",
+    "**/dist/**",
+    "**/lib/**",
+    "**/test/**",
+    "**/types/**"
+  ],
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "registry": "https://registry.npmjs.org/"
+}
