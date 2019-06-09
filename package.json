@@ -64,20 +64,18 @@
     ]
   },
   "eslintIgnore": [
+    "**/dist/**",
     "**/node_modules/**",
-    "/components/*/dist/**",
     "/test/coverage/**",
-    "/utils/*/cli/index.js",
-    "/utils/*/lib/**"
+    "/utils/*/cli/index.js"
   ],
   "stylelint": {
     "extends": "minna-tools/stylelint",
     "ignoreFiles": [
       "**/*.d.ts",
+      "**/dist/**",
       "**/node_modules/**",
-      "components/*/dist/**",
-      "test/coverage/**",
-      "utils/*/lib/**"
+      "test/coverage/**"
     ]
   },
   "remarkConfig": {
@@ -87,11 +85,9 @@
   },
   "prettierIgnore": [
     "cli/index.js",
-    "components/*/dist",
-    "docs/index.html",
+    "dist",
     "node_modules",
     "test/coverage",
-    "utils/*/lib",
     "yarn.lock"
   ],
   "jest": {
