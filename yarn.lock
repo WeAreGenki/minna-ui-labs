@@ -1066,6 +1066,11 @@
   resolved "https://registry.yarnpkg.com/@minna-ui/css/-/css-0.24.0.tgz#dc490a1c8b3e9b608d34a5e966e715ba3237cb46"
   integrity sha512-yIT77MKNnIGrtjk8D/PY5+vTUoRAT9brgUBqno8DQHH8LEBCVqzZWrl5XJVs/SWoID3aJJ/Cl9crM8WiUxRO/g==
 
+"@minna-ui/css@^0.26.0":
+  version "0.26.0"
+  resolved "https://registry.yarnpkg.com/@minna-ui/css/-/css-0.26.0.tgz#190fd7f1c862f6b51e57ea378a8b2e13c4a45b63"
+  integrity sha512-dYYX9WG0dwOTRLrYeKo+oV9IiydxP8F1LlynNGbxQGPRoFTdgrzo7eh8I+i674BrKbI/Ubkf4Bcbd8FekOJ6kw==
+
 "@minna-ui/eslint-config@^0.24.1":
   version "0.24.1"
   resolved "https://registry.yarnpkg.com/@minna-ui/eslint-config/-/eslint-config-0.24.1.tgz#55fda067bc176ef176d65d801bb31255dcbf42f7"
