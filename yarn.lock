@@ -1098,7 +1098,7 @@
   resolved "https://registry.yarnpkg.com/@minna-ui/browserslist-config/-/browserslist-config-0.27.0.tgz#b014c270ae4ebca633ce635a1794471eb4fc53b5"
   integrity sha512-yn8RDFjizBVc3nESZkZS2MdqGx3b5SNLWTgleedqhVKLdl392dC0JqwEHn0l85Dx2sO1zLzNi2hLu/sbWhaH7w==
 
-"@minna-ui/build-component@^0.27.0":
+"@minna-ui/build-component@0.27.0":
   version "0.27.0"
   resolved "https://registry.yarnpkg.com/@minna-ui/build-component/-/build-component-0.27.0.tgz#a7506ae298a794a31a2a2f045c5e8ee1f1c1bea9"
   integrity sha512-MgPVArac94dh08J3Wg0PVJSRHULwc/D5yKpH3UeEpJS2HdHD8o34MvNOQ9jPplb4Tr6HufVm8ZPjg9E5TihcFg==
@@ -1116,7 +1116,7 @@
   resolved "https://registry.yarnpkg.com/@minna-ui/collapse/-/collapse-0.27.0.tgz#5fa0d4353e1fee6d9a3301cb5a42297edeff062f"
   integrity sha512-GNuPuM5OP/7jct1qYGfhecowoNsurRxzg1JacYaPxYmgM3FP5Dtz+JIs+vhax+8aNIcakUk6xHZLEBXfEYdhsg==
 
-"@minna-ui/css@^0.27.0":
+"@minna-ui/css@0.27.0", "@minna-ui/css@^0.27.0":
   version "0.27.0"
   resolved "https://registry.yarnpkg.com/@minna-ui/css/-/css-0.27.0.tgz#c9e8cf3702fc84d19fa68de5b28c8cfc5b2c41cf"
   integrity sha512-GJaQqOTmrueyQ5UK1kOh3NwBaczWHKjlWm0WFA1v9sJlhrITCdeKLiDkjx6M1PVDGu1mv2OQvCi0rC9Iv5sAhg==
