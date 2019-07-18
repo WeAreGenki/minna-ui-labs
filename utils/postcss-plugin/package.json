@@ -2,7 +2,7 @@
   "name": "@minna-ui/postcss-plugin",
   "version": "0.24.0",
   "description": "PostCSS plugin for Minna UI projects.",
-  "repository": "https://github.com/WeAreGenki/minna-ui/tree/master/utils/postcss-plugin",
+  "repository": "https://github.com/WeAreGenki/minna-ui-labs/tree/master/utils/postcss-plugin",
   "bugs": "https://github.com/WeAreGenki/minna-ui/issues",
   "homepage": "https://wearegenki.github.io/minna-ui",
   "author": "Max Milton <max@wearegenki.com>",
@@ -17,8 +17,7 @@
   "scripts": {
     "dev": "tsc --watch --preserveWatchOutput",
     "build": "tsc",
-    "prebuild": "yarn clean",
-    "clean": "rm -rf dist"
+    "prebuild": "rm -rf dist"
   },
   "main": "index.js",
   "types": "dist/index.d.ts",
