@@ -1,6 +1,5 @@
 [![Build status](https://img.shields.io/circleci/project/github/WeAreGenki/minna-ui-labs.svg)](https://circleci.com/gh/WeAreGenki/minna-ui-labs)
-[![Coverage status](https://img.shields.io/codacy/coverage/7224f10c01514d8999cc15db718e47e0.svg)](https://app.codacy.com/project/WeAreGenki/minna-ui-labs/dashboard)
-[![NPM version](https://img.shields.io/npm/v/minna-ui-labs.svg)](https://www.npmjs.com/package/minna-ui-labs)
+[![Coverage status](https://img.shields.io/codacy/coverage/39da21f30dfc4d42a6afa498d6aaa8f6.svg)](https://app.codacy.com/project/WeAreGenki/minna-ui-labs/dashboard)
 [![Licence](https://img.shields.io/npm/l/minna-ui-labs.svg)](https://github.com/WeAreGenki/minna-ui-labs/blob/master/LICENCE)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
