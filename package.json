@@ -29,10 +29,10 @@
   "devDependencies": {
     "@wearegenki/renovate-config": "1.0.0",
     "codecov": "3.5.0",
-    "eslint": "5.16.0",
+    "eslint": "6.0.1",
     "format-package": "4.5.1",
     "jest": "24.8.0",
-    "lerna": "3.14.1",
+    "lerna": "3.15.0",
     "minna-tools": "0.24.1",
     "minna-ui": "0.24.0",
     "postcss": "7.0.17",
@@ -40,7 +40,7 @@
     "prettier": "1.18.2",
     "remark-cli": "6.0.1",
     "stylelint": "10.1.0",
-    "svelte": "3.4.4",
+    "svelte": "3.6.7",
     "typescript": "3.5.1"
   },
   "browserslist": [
