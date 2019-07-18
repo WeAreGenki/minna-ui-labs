@@ -17,6 +17,8 @@
     "clean": "lerna run clean && lerna clean --yes",
     "preinstall": "node scripts/check-yarn.js",
     "lint": "yarn lint:md && yarn lint:css && yarn lint:js && yarn lint:types",
+    "__lint": "yarn __lint:pkg && yarn lint:md && yarn lint:css && yarn lint:js && yarn lint:types",
+    "__lint:pkg": "format-package -c '@minna-ui/pkglint-config'",
     "lint:md": "remark --frail --quiet .",
     "lint:css": "stylelint **/*.{css,html,js,md,mjs,svelte,svg,ts}",
     "lint:js": "eslint --ext html,js,md,mjs,svelte,svg,ts .",
@@ -28,6 +30,7 @@
     "@wearegenki/renovate-config": "1.0.0",
     "codecov": "3.5.0",
     "eslint": "5.16.0",
+    "format-package": "4.5.1",
     "jest": "24.8.0",
     "lerna": "3.14.1",
     "minna-tools": "0.24.1",
@@ -99,7 +102,7 @@
     ]
   },
   "engines": {
-    "node": ">=10.12.0",
+    "node": ">=10.16.0",
     "yarn": ">1.12.0"
   },
   "os": [

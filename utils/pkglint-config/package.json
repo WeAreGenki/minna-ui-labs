@@ -1,0 +1,22 @@
+{
+  "name": "@minna-ui/pkglint-config",
+  "version": "0.26.0",
+  "description": "Package.json linting config for use in Minna UI projects.",
+  "repository": "https://github.com/WeAreGenki/minna-ui/tree/master/utils/pkglint-config",
+  "bugs": "https://github.com/WeAreGenki/minna-ui/issues",
+  "homepage": "https://wearegenki.github.io/minna-ui",
+  "author": "Max Milton <max@wearegenki.com>",
+  "license": "Apache-2.0",
+  "keywords": [
+    "minna-ui",
+    "package.json",
+    "wearegenki"
+  ],
+  "main": "index.js",
+  "peerDependencies": {
+    "format-package": "^4.5.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
