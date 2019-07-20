@@ -33,7 +33,7 @@
     "format-package": "5.1.0",
     "jest": "24.8.0",
     "lerna": "3.16.1",
-    "minna-tools": "0.27.0",
+    "minna-tools": "0.28.0",
     "minna-ui": "0.27.0",
     "postcss": "7.0.17",
     "postcss-scss": "2.0.0",
