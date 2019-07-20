@@ -1087,13 +1087,13 @@
   resolved "https://registry.yarnpkg.com/@minna-ui/browserslist-config/-/browserslist-config-0.28.0.tgz#0140d5d6fac2e86dfe89727d2dce75ca0f2078fa"
   integrity sha512-X9s4TYajv9cV5s9AFflPAaq1bw/7ZWngTNSzSj3/sW/2r86E1OYVNWGezFRUckqB45A1hF44f/XY4s6gkErKHg==
 
-"@minna-ui/build-component@0.27.0":
-  version "0.27.0"
-  resolved "https://registry.yarnpkg.com/@minna-ui/build-component/-/build-component-0.27.0.tgz#a7506ae298a794a31a2a2f045c5e8ee1f1c1bea9"
-  integrity sha512-MgPVArac94dh08J3Wg0PVJSRHULwc/D5yKpH3UeEpJS2HdHD8o34MvNOQ9jPplb4Tr6HufVm8ZPjg9E5TihcFg==
+"@minna-ui/build-component@0.28.0":
+  version "0.28.0"
+  resolved "https://registry.yarnpkg.com/@minna-ui/build-component/-/build-component-0.28.0.tgz#196884dcdb0cb62aaac97334957c4202d738c2a2"
+  integrity sha512-ckrkMthWN64yfRojyX6bmRuG4AlNZrvlA1xb1RzPvun4wGVK24tcLYgLOqgVYTgTe+1GgXDz7wCNnTLKkY34MQ==
   dependencies:
-    "@minna-ui/preprocess" "^0.27.0"
-    rollup "^1.16.3"
+    "@minna-ui/preprocess" "^0.28.0"
+    rollup "^1.17.0"
     rollup-plugin-buble "^0.19.8"
     rollup-plugin-commonjs "^10.0.1"
     rollup-plugin-node-resolve "^5.2.0"
@@ -1175,6 +1175,15 @@
   version "0.27.0"
   resolved "https://registry.yarnpkg.com/@minna-ui/preprocess/-/preprocess-0.27.0.tgz#4f3639a06cb1809ca1289f04ded5ad005bd02e0c"
   integrity sha512-O/cZ3cfbq4Vf/AiGRRMIjzBEL3QHbz+sUJ4S35z97if2GwRyYhkV7O3KXuRLsSRojUn6tm33GYh9E4U4myT0pQ==
+  dependencies:
+    deepmerge "^4.0.0"
+    postcss-load-config "^2.0.0"
+    postcss-scss "^2.0.0"
+
+"@minna-ui/preprocess@^0.28.0":
+  version "0.28.0"
+  resolved "https://registry.yarnpkg.com/@minna-ui/preprocess/-/preprocess-0.28.0.tgz#384a92f83800165ab59e7786ab9de8303cb8638b"
+  integrity sha512-wAUdJ1x4Eu0gr9PdLEN0N9sy3dXlIMEejF3QHa5apcLzAMRr2E1XQyBn/OgJqzhURGcidFrlP5IMGb65TEG70w==
   dependencies:
     deepmerge "^4.0.0"
     postcss-load-config "^2.0.0"
@@ -8579,7 +8588,7 @@ rollup-pluginutils@^2.3.3, rollup-pluginutils@^2.8.1:
   dependencies:
     estree-walker "^0.6.1"
 
-rollup@^1.16.3:
+rollup@^1.17.0:
   version "1.17.0"
   resolved "https://registry.yarnpkg.com/rollup/-/rollup-1.17.0.tgz#47ee8b04514544fc93b39bae06271244c8db7dfa"
   integrity sha512-k/j1m0NIsI4SYgCJR4MWPstGJOWfJyd6gycKoMhyoKPVXxm+L49XtbUwZyFsrSU2YXsOkM4u1ll9CS/ZgJBUpw==
