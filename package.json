@@ -40,7 +40,7 @@
     "prettier": "1.18.2",
     "remark-cli": "7.0.0",
     "stylelint": "10.1.0",
-    "svelte": "3.6.10",
+    "svelte": "3.6.11",
     "typescript": "3.5.3"
   },
   "browserslist": [
