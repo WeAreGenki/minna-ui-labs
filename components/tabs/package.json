@@ -34,7 +34,7 @@
     "*.d.ts"
   ],
   "devDependencies": {
-    "@minna-ui/build-component": "0.29.0",
+    "@minna-ui/build-component": "0.31.3",
     "@minna-ui/css": "0.31.0",
     "svelte": "3.8.1"
   },
