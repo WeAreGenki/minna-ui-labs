@@ -1107,12 +1107,12 @@
   resolved "https://registry.yarnpkg.com/@minna-ui/browserslist-config/-/browserslist-config-0.32.0.tgz#8683c0cba5539ed7d2c153ad1d1cbbc5950acf84"
   integrity sha512-kuHi3lXyPUgns8UbGHfFP6Ba9kC3JHJtJ4TfaMg3A0D4ZD2o8LdETdPjg02TECcYUklCTSBvyOOY8vmPljxS6Q==
 
-"@minna-ui/build-component@0.32.0":
-  version "0.32.0"
-  resolved "https://registry.yarnpkg.com/@minna-ui/build-component/-/build-component-0.32.0.tgz#a85f5c776ffb8662c25b67f4d6c88ae4d03f644f"
-  integrity sha512-l9afTfRETcTvoY0ZDfQYmR+f2gluLM95WDKvf/yo+U/JA//1oOECW+7tGrqy6Su0qYbaB1JAScZTUjm4HeeSHw==
+"@minna-ui/build-component@0.33.0":
+  version "0.33.0"
+  resolved "https://registry.yarnpkg.com/@minna-ui/build-component/-/build-component-0.33.0.tgz#cff08f096ff7ec46d47d9663b34a9797453adfc8"
+  integrity sha512-goQUhmCFDclR1/Zx4mAqXEvUZxOg9d8n0s38nnpC84As47KdUcugmd2G6CpcQlSZkHGvMrLfInYrAnBhemMWyQ==
   dependencies:
-    "@minna-ui/preprocess" "^0.32.0"
+    "@minna-ui/preprocess" "^0.33.0"
     rollup "^1.20.3"
     rollup-plugin-buble "^0.19.8"
     rollup-plugin-commonjs "^10.1.0"
@@ -1191,6 +1191,15 @@
   version "0.32.0"
   resolved "https://registry.yarnpkg.com/@minna-ui/preprocess/-/preprocess-0.32.0.tgz#c803cbbc43f3116990613eccdb710aaa41a7d711"
   integrity sha512-VpTSKbjbJqAVuorIdgaqZmm8l4vlKmKl6eeZfAhTKqDI4TlX8E5soBrqQG2rKTaSqNvMAYx8klW3T/dXDkAUwQ==
+  dependencies:
+    deepmerge "^4.0.0"
+    postcss-load-config "^2.0.0"
+    postcss-scss "^2.0.0"
+
+"@minna-ui/preprocess@^0.33.0":
+  version "0.33.0"
+  resolved "https://registry.yarnpkg.com/@minna-ui/preprocess/-/preprocess-0.33.0.tgz#cb4f73ae9ff655cdac992f2b3d146a93bb45ccf2"
+  integrity sha512-JRDujcriUbkV3EFYps/XYzTDlb/I1/wlaA/J+Tvx0EHJvVZ64ms4gRgzUNPPDneQRg5epdbOH7MnLB9yv/IMXQ==
   dependencies:
     deepmerge "^4.0.0"
     postcss-load-config "^2.0.0"
