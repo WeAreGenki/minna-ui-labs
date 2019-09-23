@@ -1125,12 +1125,7 @@
   resolved "https://registry.yarnpkg.com/@minna-ui/collapse/-/collapse-0.34.0.tgz#b0b688497830c2b42fefb5690a21da2742b726a0"
   integrity sha512-+13WJbdZK+JU56giOv1XI6+eHR2VfG+uP11ibq1CXNZqM8lRCGQ1MRTXR+u6F0kMsGjN1LNlXwsGj9hcGpzXsA==
 
-"@minna-ui/css@0.32.0":
-  version "0.32.0"
-  resolved "https://registry.yarnpkg.com/@minna-ui/css/-/css-0.32.0.tgz#34fbda68cc4e254140069edb4b8ca9adb255c343"
-  integrity sha512-UOIBNC+A/Tlaus8VzY3WCYp0fT8j67alrDawY+MkV/19bQCEaDG0TXBVpHZSoN4hS9xhT5gw70ESp1YDv8S7Mw==
-
-"@minna-ui/css@^0.34.0":
+"@minna-ui/css@0.34.0", "@minna-ui/css@^0.34.0":
   version "0.34.0"
   resolved "https://registry.yarnpkg.com/@minna-ui/css/-/css-0.34.0.tgz#7c0638a4d3bec9a54aee85b454bbd20375aadf78"
   integrity sha512-UyFCbfpNm8hHJHJrQvCc2kpgX5hLP8rggQCwOodYeozavKXqc9ohR/E9Or/NSRrfe6+BtAYjgmyHC7Mdzx7qJA==
