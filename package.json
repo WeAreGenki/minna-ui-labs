@@ -41,7 +41,7 @@
     "remark-cli": "7.0.0",
     "stylelint": "10.1.0",
     "svelte": "3.8.1",
-    "typescript": "3.5.3"
+    "typescript": "3.6.4"
   },
   "browserslist": [
     "extends @minna-ui/browserslist-config"
