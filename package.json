@@ -35,7 +35,7 @@
     "lerna": "3.18.5",
     "minna-tools": "0.34.1",
     "minna-ui": "0.34.1",
-    "postcss": "7.0.17",
+    "postcss": "7.0.23",
     "postcss-scss": "2.0.0",
     "prettier": "1.18.2",
     "remark-cli": "7.0.0",
