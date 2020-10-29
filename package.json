@@ -38,7 +38,7 @@
     "postcss": "7.0.17",
     "postcss-scss": "2.0.0",
     "prettier": "1.18.2",
-    "remark-cli": "7.0.0",
+    "remark-cli": "9.0.0",
     "stylelint": "12.0.0",
     "svelte": "3.16.0",
     "typescript": "3.7.3"
